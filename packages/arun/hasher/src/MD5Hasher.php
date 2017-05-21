@@ -23,7 +23,7 @@ class MD5Hasher
     public function make($value, array $option = [])
     {
         $salt = isset($option['salt']) ? $option['salt'] : '';
-        return hash('md5',$value.$salt);
+        return hash('md5', $value.$salt);
     }
 
     /**
@@ -34,7 +34,7 @@ class MD5Hasher
      */
     public function check($value, $hashValue, array $option = [])
     {
-        $salt =isset($option['salt']) ? $option['salt'] : '';
-        return hash('md5',$value.$salt) === $hashValue;
+        $salt = isset($option['salt']) ? $option['salt'] : '';
+        return hash('md5', $value.$salt) === $hashValue;
     }
 }

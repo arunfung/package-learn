@@ -1,4 +1,7 @@
-
+[![Build Status](https://travis-ci.org/arunfung/laravel-package-develop.svg?branch=master)](https://travis-ci.org/arunfung/laravel-package-develop)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/arunfung/laravel-package-develop/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/arunfung/laravel-package-develop/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/arunfung/laravel-package-develop/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/arunfung/laravel-package-develop/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/arunfung/laravel-package-develop/badges/build.png?b=master)](https://scrutinizer-ci.com/g/arunfung/laravel-package-develop/build-status/master)
 ### 开发 Laravel 扩展 测试
 
 ### 用法
